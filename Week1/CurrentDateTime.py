@@ -1,5 +1,7 @@
-import datetime
+import datetime  # import datetime from datetime module
 
-current = datetime.datetime.now()  # Calling from module
-print("  Date    |     Time ")
-print(str(current))
+
+def Date_Time():
+    current = datetime.datetime.now()  # Calling from module
+    print("  Date    |     Time ")
+    print(str(current))
